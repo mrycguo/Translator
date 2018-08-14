@@ -295,8 +295,8 @@ int Translate()
 {
   CURL *curl;
   CURLcode res;
-  static string appid = "20171230000110599";    //replace myAppid with your own appid
-  static string secret_key = "n7vdWI74d1BixONihzh2";   //replace mySecretKey with your own mySecretKey
+  static string appid = "xxxxxxxxxxxxxxxxx";    //replace myAppid with your own appid
+  static string secret_key = "xxxxxxxxxxxxxxxxx2";   //replace mySecretKey with your own mySecretKey
   string q;          //replace apple with your own text to be translate, ensure that the input text is encoded with UTF-8!
   string from;          //replace en with your own language type of input text
   string to;            //replace zh with your own language type of output text
